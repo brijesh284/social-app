@@ -1152,6 +1152,7 @@ p {
 }
 .features-style-twelve p {
   color: var(--dark-3);
+  min-height: 145px;
 }
 .features-style-twelve:hover {
   border-color: var(--primary);
@@ -1163,6 +1164,9 @@ p {
   }
   .features-style-twelve {
     padding: 30px 30px;
+  }
+  .features-style-twelve p {
+    min-height: auto;
   }
 }
 
