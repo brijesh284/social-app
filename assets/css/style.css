@@ -1049,14 +1049,28 @@ p {
 ===========================*/
 .features-twelve {
   background-color: var(--white);
-  padding-top: 100px;
+  padding-top: 60px;
   padding-bottom: 100px;
   position: relative;
 }
-
+.features-twelve .content {
+  padding-left: 40px;
+}
+.features-twelve .content span {
+  color: var(--primary-dark);
+}
+.features-twelve .features-wrap img {
+  width: 100%;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .features-twelve {
     padding: 80px 0;
+  }
+}
+@media (max-width: 991px) {
+  .features-twelve .content {
+    padding-left: 0px;
+    margin-top: 40px;
   }
 }
 @media (max-width: 767px) {
@@ -1111,37 +1125,16 @@ p {
 }
 
 .features-style-twelve {
-  padding: 50px 30px;
-  border: 2px solid var(--gray-4);
-  border-radius: 10px;
-  background-color: var(--white);
   text-align: left;
-  margin-top: 30px;
+  margin-top: 40px;
   position: relative;
   z-index: 2;
   overflow: hidden;
   transition: all 0.4s ease-in-out;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .features-style-twelve {
-    padding: 40px 20px;
-  }
-}
-.features-style-twelve:hover {
-  box-shadow: var(--shadow-4);
-}
+
 .features-style-twelve .feature-icon {
-  width: 80px;
-  height: 80px;
-  box-shadow: var(--shadow-2);
-  border-radius: 5px;
-  background: var(--primary-dark);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--white);
-  font-size: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   z-index: 1;
   transition: all 0.4s ease-in-out;
 }
@@ -1150,29 +1143,13 @@ p {
 }
 .features-style-twelve h4 {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 .features-style-twelve p {
   color: var(--dark-3);
-  min-height: 145px;
 }
 .features-style-twelve:hover {
   border-color: var(--primary);
-}
-@media (max-width: 1399px) {
-  .features-style-twelve p {
-    min-height: 170px;
-  }
-}
-@media (max-width: 1199px) {
-  .features-style-twelve p {
-    min-height: 195px;
-  }
-}
-@media (max-width: 991px) {
-  .features-style-twelve p {
-    min-height: 90px;
-  }
 }
 @media (max-width: 767px) {
   .features-style-twelve .feature-icon {
@@ -1180,7 +1157,7 @@ p {
     height: 52px;
   }
   .features-style-twelve {
-    padding: 30px 30px;
+    padding: 0px;
   }
   .features-style-twelve p {
     min-height: auto;
@@ -1228,7 +1205,7 @@ p {
     padding: 60px 0;
   }
 }
-.about-eight img {
+.about-eight .about-icon {
   width: 70%;
   border-radius: 10px;
 }
