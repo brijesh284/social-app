@@ -1715,6 +1715,9 @@ p {
   margin-top: 9px;
   display: block;
 }
+.footer-six .footer-support span a {
+  color: var(--gray-2);
+}
 .footer-six .footer-support span i {
   font-size: 20px;
   display: inline-block;
